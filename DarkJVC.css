@@ -3,12 +3,13 @@
 /*
  * Name:    DarkSearch for Google
  * Author:  Nass O
- * Version: v3.2.8
+ * Version: v3.2.9
  */
 
 /* Dernier patch :
-- Prise en charge de la dernière mise à jour de JVC du 29/09/16
-- Passage en v3.2.8
+- Modifications des notes
+- Quelques retouches
+- Passage en v.3.2.9
  */
 
 /* Scrollbar Chrome*/
@@ -53,7 +54,7 @@ background: #292929 ! important;
 }
 /* smileys */
 .fil-ariane-crumb:before {
-    content: "DarkJVC v3.2.8 – ";
+    content: "DarkJVC v3.2.9 – ";
     color: #C5C5C5;
 }
 
@@ -918,7 +919,7 @@ a, .lien-jv,.liste-default-jv li a {
 }
 
 /* Red color */
-.concours-regles p>b, #concours-edition #mentions-legales-editor-container .previsu-editor p>b,span[style="color: #FF4000;"],.xXx.text-staff, .text-staff:hover ,.pres-item-jaq .titre-item b, .pres-item-jaq .intro b, .pres-item-jaq .titre-item2 b,.list-search-forum-name em,.list-search-forum-titre span,.hit-note-g,.text-admin, .text-admin:hover,.officiel,.classement,.bloc-avis-testeur .auteur, .bloc-avis-lecteur .auteur,.bloc-avis-testeur .note strong, .bloc-avis-lecteur .note strong {
+.concours-regles p>b, #concours-edition #mentions-legales-editor-container .previsu-editor p>b,span[style="color: #FF4000;"],.xXx.text-staff, .text-staff:hover ,.pres-item-jaq .titre-item b, .pres-item-jaq .intro b, .pres-item-jaq .titre-item2 b,.list-search-forum-name em,.list-search-forum-titre span,.hit-note-g,.text-admin, .text-admin:hover,.officiel,.classement,.bloc-avis-testeur .auteur,.bloc-avis-testeur .note strong {
     color: #B34242 !important;
 }
 
@@ -930,6 +931,9 @@ a, .lien-jv,.liste-default-jv li a {
 /* Note lecteurs */
 .hit-note-l ,.hit-note-l:hover{
     color: #9d9d9d !important;
+}
+.bloc-avis-lecteur .note strong,.bloc-avis-lecteur .auteur {
+    color: #a1a1a1;
 }
 /* Modo color */
 .text-modo, .text-modo:hover {
@@ -2769,3 +2773,25 @@ table.tab-choix tbody tr td {
 .game-affi-block .product-list .line {
     border-top: 1px dotted #515151;
 }
+.bloc-avis-testeur .statut {
+    color: #808080!important;
+}
+.col-xs-12.col-md-9.col-lg-5.resume-tech hr {
+    border-top: 1px solid #2e2e2e!important;
+}
+.bloc-avis-testeur+.bloc-avis-testeur .avatar:before, .bloc-avis-testeur+.bloc-avis-testeur .infos-auteur:before {
+    background: #2e2e2e!important;
+}
+.bloc-avis-testeur .note span, .bloc-avis-lecteur .note span {
+    border-top: 1px solid #3a3a3a;
+    color: #454545;
+}
+
+/* Citation "l'avis du testeur"  dans les tests */
+
+.avis-content-inner:before {
+    border-top: 0.875rem solid #242424;
+}
+.avis-content-inner {
+    background: #242424;
+    }
