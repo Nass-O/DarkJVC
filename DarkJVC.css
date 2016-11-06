@@ -50,12 +50,12 @@ background: #1c1c1c ! important;
 ::-webkit-input-placeholder {
     color: #a3a3a3!important;
 }
-/* smileys */
+/* Version */
 .fil-ariane-crumb:before {
-    content: "DarkJVC v3.2.9 – ";
-    color: #C5C5C5;
+    content: "DarkJVC v3.2.9";
+    color: #7e7e7e;
 }
-
+/* smileys */
 img[data-code=":rire:"] {
     content: url(http://i.imgur.com/v6KMQzC.gif);
     background: url(http://i.imgur.com/v6KMQzC.gif);
