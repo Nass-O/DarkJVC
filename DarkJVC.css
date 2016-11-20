@@ -1,13 +1,10 @@
 /* DarkJVC - Responsive */
 
 /* Dernier patch :
-- Modifications des notes
-- Quelques retouches
-- Les blocs "magasin" sur les fiches de jeux (bloc d'achat de jeu avec Amazon, Fnac,etc) étaient tellement moches/prenaient de la place pour rien je les ai supprimé
-- Quelques contrastes revus
-- Autocompletion revue entièrement (la fonctionnalité qui suggère une réponse sans avoir à écrire le titre en entier)
-- Prise en charge partielle de la nouvelle page Live (jeuxvideo.com/live)
-- Passage en v.3.2.9
+- Harmonisation des couleurs
+- Citations revues (vous aimez ou pas ? J'attends des retours svp)
+- Quelques retouches à différents endroits
+- Passage en v.3.3.0
  */
 
 /* Scrollbar Chrome*/
@@ -52,8 +49,8 @@ background: #1c1c1c ! important;
 }
 /* Version */
 .fil-ariane-crumb:before {
-    content: "DarkJVC v3.2.9";
-    color: #7e7e7e;
+    content: "DarkJVC v3.3.0";
+    color: #888;
 }
 /* smileys */
 img[data-code=":rire:"] {
@@ -719,7 +716,7 @@ input[type="radio"], input[type="checkbox"] {
     -moz-filter: invert(0.85)!important;
     filter: invert(0.85)!important;
 }
-div#ui-datepicker-div,.fs-body h3:first-child,.avis-tri li.tri-desc .lien-jv span,.avis-tri li.tri-asc .lien-jv span,.text-enrichi-forum>blockquote.blockquote-jv>blockquote:not([data-visible="1"]):after {
+div#ui-datepicker-div,.fs-body h3:first-child,.avis-tri li.tri-desc .lien-jv span,.avis-tri li.tri-asc .lien-jv span {
     -webkit-filter: invert(0.9)!important;
     -moz-filter: invert(0.9)!important;
     filter: invert(0.9)!important;
@@ -948,9 +945,9 @@ a, .lien-jv,.liste-default-jv li a {
 
 /* Citation */
 .text-enrichi-forum blockquote.blockquote-jv, blockquote {
-    border-left: 5px solid #535353!important;
-    color: #b6b6b6!important;
-    background: rgba(136, 136, 136, 0.11)!important;
+    border-left: 2px solid #717171!important;
+    color: #88898a!important;
+    background: transparent;
 }
 /* Spoil */
 .bloc-spoil-jv .txt-spoil {
@@ -1375,9 +1372,9 @@ h3 a[data-jvcode="HTMLBLOCK"] {
     background-color: #373737 !important;
 }
 
-.label-support.active, .label-support.active-mach-version,.label-support {
+.label-support.active, .label-support.active-mach-version, .label-support {
     color: #d4d4d4!important;
-    background: #494949!important;
+    background: rgba(74,74,74,.38)!important;
 }
 .navbar-game .navbar-brand, .navbar-game .nav-link,.navbar-game .nav-link.disabled {
     color: #DDD;
@@ -1778,7 +1775,7 @@ h3 a {
     background: #1C1C1C;
 }
 .panel-heading, .sep-titre, .heading-pres1, .head-cell-hit {
-    background-color: #3E3E3E!important;
+    background-color: #353535!important;
     color: #C4C4C4!important;
     border-color: #2E2E2E!important;
 }
@@ -1922,12 +1919,12 @@ input, textarea, .jv-editor .text-editor,.search input, .bloc-rech-forum .txt-se
     transition: none;
 }
 .topic-list .topic-head {
-    background: #242424 !important;
+    background: #393838 !important;
     color: #C4C4C4;
 }
 .topic-list {
     background: #2A2A2A;
-    border: 0.0625rem solid #2A2A2A;
+    border: 0.0625rem solid #181818;
     padding: 0;
     border-spacing: 0;
     box-shadow: 0px 0px 5px rgba(19, 19, 19, 0.74);
@@ -2092,13 +2089,13 @@ td.titre {
     background: #1C1C1C!important;
 }
 .navbar-game {
-    background: rgb(38, 38, 38);
+    background: rgb(41, 41, 41);
 }
 .game-top {
     background: #202020 !important;
     }
 .game-top-bar-support {
-    background: #393939;
+    background: #353535;
 }
 .bloc-accueil {
     background: #222;
@@ -2158,7 +2155,7 @@ background: url(data:image/gif;base64,R0lGODlhEAAQAIQAACwqLHx6fFRSVKyqrDw+PGRmZI
     border-color: rgb(82, 82, 82);
 }
 .panel-body {
-    background: #2C2C2C;
+    background: #262626;
 }
 .panel-body b,.panel-body {
     color: #c0c0c0;
@@ -2627,7 +2624,7 @@ table.tab-choix tbody tr td {
     background-color: #333;
 }
 .nav-lvl2-item>.nav-link {
-	border-bottom: 1px solid #474747;
+	border-bottom: 1px solid #333;
 }
 .nav-lvl2-item>.nav-lv2-link-repeat {
     background-color: #2F2F2F;
@@ -2900,4 +2897,16 @@ a.videoItemLayout__title___31MXT {
 }
 .simpleButton__button___T20eh {
     background-color: #3b3b3b;
+}
+
+/* "show more" icon for quotes */
+.text-enrichi-forum>blockquote.blockquote-jv>blockquote:not([data-visible="1"]):after {
+    background-color: transparent;
+    border: none;
+    color: #878A8D;
+}
+.text-enrichi-forum>blockquote.blockquote-jv>blockquote:not([data-visible="1"]):hover:after {
+    background-color: transparent;
+    border: none;
+    color: #cccccc;
 }
