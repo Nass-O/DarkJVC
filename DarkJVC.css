@@ -1,10 +1,8 @@
 /* DarkJVC - Responsive */
 
 /* Dernier patch :
-- Harmonisation des couleurs
-- Citations revues (vous aimez ou pas ? J'attends des retours svp)
-- Quelques retouches à différents endroits
-- Passage en v.3.3.0
+- Responsive menu updated (minor)
+- Passage en v.3.3.0a
  */
 
 /* Scrollbar Chrome*/
@@ -49,7 +47,7 @@ background: #1c1c1c ! important;
 }
 /* Version */
 .fil-ariane-crumb:before {
-    content: "DarkJVC v3.3.0";
+    content: "DarkJVC v3.3.0a";
     color: #888;
 }
 /* smileys */
