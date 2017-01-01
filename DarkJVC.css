@@ -2627,7 +2627,7 @@ table.tab-choix tbody tr td {
 	border-bottom: 1px solid #333;
 }
 .nav-lvl2-item>.nav-lv2-link-repeat {
-    background-color: #2F2F2F;
+    background-color: #333;
 }
 .nav-lvl2-item>.nav-lv2-link-repeat:hover {
     background-color: #2a2a2a;
