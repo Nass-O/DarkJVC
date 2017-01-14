@@ -1,8 +1,8 @@
 /* DarkJVC - Responsive */
 
 /* Dernier patch :
-- Responsive menu updated (minor)
-- Passage en v.3.3.0a
+- Intégration Spotify (scrollbar updated)
+- Passage en v.3.3.1
  */
 
 /* Scrollbar Chrome*/
@@ -32,14 +32,20 @@ box-shadow: none ! important;
 *::-webkit-scrollbar-track {
 background: #1c1c1c ! important;
 }
-/*[[gametop]]*/
-/*[[espace]]*/
-/*[[machh]]*/
-/*[[selection]]*/
-/*[[menufix]]*/
+.game-top { display: none;}
+.topic-list li {
+    line-height: 1.1rem;
+}
+
+
+
 /*[[colorblind]]*/
 /*[[couleur]]*/
-/*[[urlcolor]]*/
+/* URLS */
+.txt-msg a,
+.text-enrichi-default a {
+    color: #879DAA;
+}
 
 /* Placeholder */
 ::-webkit-input-placeholder {
@@ -47,7 +53,7 @@ background: #1c1c1c ! important;
 }
 /* Version */
 .fil-ariane-crumb:before {
-    content: "DarkJVC v3.3.0a";
+    content: "DarkJVC v3.3.1";
     color: #888;
 }
 /* smileys */
