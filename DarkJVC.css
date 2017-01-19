@@ -32,15 +32,15 @@ box-shadow: none ! important;
 *::-webkit-scrollbar-track {
 background: #1c1c1c ! important;
 }
-.game-top { display: none;}
-.topic-list li {
-    line-height: 1.1rem;
-}
-
-
-
+/*[[gametop]]*/
+/*[[espace]]*/
+/*[[machh]]*/
+/*[[selection]]*/
+/*[[menufix]]*/
 /*[[colorblind]]*/
 /*[[couleur]]*/
+/*[[urlcolor]]*/
+
 /* URLS */
 .txt-msg a,
 .text-enrichi-default a {
