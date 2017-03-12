@@ -1,0 +1,33 @@
+@import "_variables.scss";
+/******* profil ******* */
+
+//CDV
+
+.bloc-default-profil,#header-profil .content-img-avatar {
+    background: $bg-fff;
+    border-bottom-color: $sep-lighter;
+  }
+.bloc-default-profil .profil-display-tab td.date-cell,.bloc-default-profil .display-line-lib .info-value,.bloc-default-profil .bloc-description-desc,.bloc-default-profil .bloc-signature-desc {
+  color: $c-333;
+}
+.bloc-default-profil .display-line-lib>li+li,.bloc-default-profil .bloc-description-desc ~ .bloc-signature-desc {
+  border-top-color: $sep-lighter;
+}
+.bloc-default-profil .header,.menu-profil {
+  border-bottom-color: $sep-lighter;
+}
+.bloc-default-profil:before {
+  border-top-color: $panel-header;
+}
+.bloc-default-profil table.profil-display-tab tr:nth-child(2n+1) {
+  background: $bg-fff;
+}
+.bloc-default-profil .header h2 {
+  color: $color-default;
+}
+.menu-profil .list-menu-profil a {
+  color: $color-default;
+  &:hover {
+    color: $brand-color;
+  }
+}

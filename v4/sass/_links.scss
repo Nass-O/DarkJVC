@@ -1,0 +1,11 @@
+@import "_variables.scss";
+/******* links ******* */
+
+.liste-default-jv li,.conteneur-message,.bloc-liste-num-page,.text-muted,.bloc-default-profil .last-messages,.bloc-default-profil .bloc-description-desc  {
+  a,.lien-jv {
+    color: $link;
+  }
+}
+.item-home-accroche .group-wrapper .titre-wrapper a:hover,a:hover, a:focus, a:active, .lien-jv:hover, .lien-jv:focus, .lien-jv:active,.bloc-accueil .lien-jv:hover, .bloc-accueil .lien-jv:focus, .bloc-accueil .lien-jv:active {
+    color: $link-hover;
+  }

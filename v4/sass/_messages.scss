@@ -1,0 +1,68 @@
+@import "_variables";
+/******* messages ******* */
+
+//auteur
+.bloc-message-forum .bloc-pseudo-msg,.bloc-message-forum .bloc-pseudo-msg:hover {
+  color: $c-000!important;
+}
+
+//bloc message
+.bloc-message-forum,.bloc-message-forum:nth-of-type(odd) {
+    background: $msg-bg;
+    border-color: $msg-border;
+    box-shadow: $shadow;
+}
+
+//separators
+.bloc-message-forum .bloc-header,.bloc-message-forum .signature-msg {
+    border-color: lighten($msg-bg,8);
+  }
+
+//signature-msg
+.bloc-message-forum .signature-msg {
+    color: #a4a4a4;
+  }
+
+//btn open quotes
+.text-enrichi-forum>blockquote.blockquote-jv>blockquote:not([data-visible="1"]):after {
+  background: $btn-def-bg;
+  color: $btn-def-color;
+  border-color: transparent;
+}
+.text-enrichi-forum>blockquote.blockquote-jv>blockquote:not([data-visible="1"]):hover:after {
+  background: lighten($btn-def-bg,11);
+  color: #fff;
+  border-color: transparent;
+}
+
+//citation
+.text-enrichi-forum blockquote.blockquote-jv {
+    border-left: 2px solid #6d6d6d;
+  }
+
+//spoil
+.bloc-spoil-jv .contenu-spoil {
+    background: $spoil-bg;
+    border: 1px solid $spoil-border;
+    color: black;
+}
+.bloc-spoil-jv .txt-spoil {
+  background: $brand-bg;
+  color: $btn-def-color;
+}
+.bloc-spoil-jv .aff-spoil, .bloc-spoil-jv .masq-spoil {
+  color: $color-default;
+}
+
+//code
+.text-enrichi-forum .pre-jv {
+    border: 1px solid #3d3d3d;
+    border-radius: 0;
+  }
+.text-enrichi-forum .pre-jv, .text-enrichi-forum .code-jv {
+      color: #ccc;
+      background-color: #202020;
+  }
+.code-jv {
+  border-radius: 0!important;
+}

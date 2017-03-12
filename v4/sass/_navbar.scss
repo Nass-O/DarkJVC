@@ -1,0 +1,88 @@
+@import "_variables.scss";
+/******* Navbar ******* */
+.nav-primary .nav-toggler:before, .nav-primary .nav-toggler:after {
+    top: -25%;
+    left: 90%;
+}
+.nav-primary .nav-lvl1-item>.nav-link {
+    line-height: 3.5rem;
+}
+.header-top {
+    background-color: $nav-top-bg;
+  //  border-bottom: 1px solid #1e1e1e;
+}
+.header-bottom, .header-sticky {
+    background-color: $nav-bottom-bg;
+}
+.header-bottom {
+    border-top: 1px solid #313131;
+}
+.nav-primary .nav-toggler:before {
+  border-top-color: $nav-top-bg;
+}
+.nav-primary .nav-toggler:after {
+  border-top-color: $c-000;
+}
+.nav-platform .nav-lvl1-item>.nav-link {
+  color: $c-000;
+}
+.header-bottom .nav-lvl1-item>.nav-link {
+  color: $c-fff;
+}
+
+/* Navbar dropdown */
+
+.nav-primary .nav-toggler-on,.nav-primary .nav-toggler-on ~ .nav-link,.nav-primary .nav-lvl1-item>.nav-link:hover,.nav-lvl2 {
+  background-color: $nav-dropdown;
+}
+.nav-lvl2-item>.nav-link:hover,.nav-lvl2-item>.nav-lv2-link-repeat {
+    background-color: $nav-dropdown-hover;
+}
+.nav-lvl2-item>.nav-link {
+  border-color: $nav-dropdown-border;
+}
+.nav-lvl2-item>.nav-lv2-link-repeat:hover {
+    background-color: $nav-dropdown-hover-darker;
+}
+.nav-primary .nav-lvl1-item:hover .nav-toggler:before, .nav-primary .nav-toggler-on:before {
+  border-top-color: $nav-dropdown;
+}
+
+
+//--account dropdown
+//dropdown pseudo switch
+.nav-dropdown-container-top,.nav-dropdown-container,.account:nth-of-type(1) {
+    background: $bg-fff;
+}
+.nav-dropdown-container-top {
+    border-bottom: 1px solid $sep-lighter;
+}
+
+.nav-account-user.open:after, .nav-account-notif.open:after, .nav-account-mp.open:after { //arrow
+    border-bottom-color: $bg-fff;
+}
+
+.nav-dropdown-container-param { //parametres
+  color: $color-default;
+}
+
+.account { //pseudos
+    border-top: 1px solid $sep-lighter;
+    background: $bg-fafafa;
+    &:hover {
+      background: darken($even,5);
+    }
+}
+.account .account-pseudo {
+  color: $color-default;
+  &:hover {
+    color: $color-default;
+  }
+}
+
+.nav-dropdown-container-bottom {
+  //footer
+  background: $bg-fff;
+  border-bottom: 1px solid $sep-lighter;
+  border-top: 1px solid $sep-lighter;
+}

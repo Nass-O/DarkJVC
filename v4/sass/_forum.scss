@@ -1,0 +1,63 @@
+@import "_variables.scss";
+/******* forum ******* */
+
+//titre
+.titre-bloc {
+  color: $color-default;
+}
+.bloc-pre-pagi-forum.bloc-outils-top,.bloc-outils-plus-modo.bloc-outils-bottom {
+  border-bottom-color: $sep-default;
+}
+.titre-head-bloc,.bloc-outils-plus-modo.bloc-outils-top,.bloc-pre-pagi-forum.bloc-outils-bottom {
+    border-top-color: $sep-default;
+  }
+
+//search button
+.bloc-rech-forum .btn-lancer-rech,.bloc-rech-forum .btn-lancer-rech:hover {
+    background: #6c6c6c;
+    border: 0;
+    width: 1.9rem;
+}
+
+
+// topic list
+.topic-list {
+  background: transparent;
+  border: none;
+  padding: 0;
+  border-spacing: 0 0.1rem;
+  box-shadow: $shadow;
+  .topic-head,.topic-head:hover {
+    background: $panel-header!important;
+    color: $color-default;
+    .topic-author {
+      color: $color-default;
+    }
+  }
+  .topic-title:hover, li:hover > .topic-subject a,.topic-date>.lien-jv:hover {
+    color: #ccc!important;
+    &:visited:hover{
+      color: #777;
+    }
+  }
+  .topic-author,.topic-count,.lien-jv {
+    color: #b3b3b3;
+    &:hover {
+      color: #b3b3b3;
+    }
+  }
+  li:hover {
+    background: lighten($odd,10)!important;
+  }
+}
+
+.topic-list li:nth-of-type(even) {
+  background: $even;
+}
+.topic-list li:nth-of-type(odd) {
+  background: $odd;
+}
+
+.lien-jv.topic-title {
+    color: #d1d1d1;
+}

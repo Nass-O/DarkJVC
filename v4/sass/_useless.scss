@@ -1,0 +1,11 @@
+/******* Eléments inutiles *******/
+div[id*='wads'],div[id*='wbb'],
+.item-home-accroche .mask-img:before,#zone-sponso,#wads_po_middle2,#wads_po_push-right-1,#wads_po_middle,#wbdds_i,a.universeItems__universeItemLink___3WVqK.universeItems__storeLabel___2g2dK,.corps-article+.bloc-presentation-affi,.col-xs-12.col-lg-4,#header-search .search-keyword,.nav-primary .nav-lvl1-item:last-child,.top-nav-link .nav-link.nav-link-extra.nav-link-psn,span.game-releases-store,div#affli-ligne-blocs,a.xXx.titre-affli-ligne-text,#jv-footer .footer-links,#video-footer,.nav-link-sponso,.OUTBRAIN,.outbrain,span.game-top-nav-link-boutique,#Stage,.header-top .search-keyword,.footer-social-network,.content-slice-pres1::before,.heading-pres1::before,.heading-pres1::after,.bonus-track,.fb-page,.bloc-boutique-droite {
+    display:none!important;
+}
+/* Correction de l'espace entre le header et le container*/
+#content > div:nth-child(5) {
+    min-height: 20px !important;
+    height: 20px !important;
+    visibility: hidden !important;
+}

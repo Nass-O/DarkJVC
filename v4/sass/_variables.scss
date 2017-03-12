@@ -1,0 +1,79 @@
+//--version
+$version: "DarkJVC v4.0.0 - ";
+
+//--colors
+$color-default: #ccc;
+$color-dark1: #8f8f8f;
+$c-000: #ccc;
+$c-fff: #d0d0d0;
+$c-333: #a6a6a6;
+
+
+
+//brand color
+$brand-color: #1f75bc; //orange: #bc3f1f //blue: #1f75bc
+$brand-bg: darken( desaturate( $brand-color, 11 ), 10 );
+
+//-- navbar
+$nav-top-bg: #2c2c2c;
+$nav-bottom-bg: #252525;
+
+$nav-dropdown: lighten($nav-top-bg, 10.5%);
+$nav-dropdown-hover: darken($nav-dropdown, 5%);
+$nav-dropdown-border: lighten($nav-dropdown, 5%);
+$nav-dropdown-hover-darker: darken($nav-dropdown-hover, 5%);
+
+//-- background
+$main-bg: #1a1a1a;
+$main-container-bg: darken( $nav-top-bg, 2 );
+
+$bg-fff: lighten( $main-container-bg, 7 );
+$bg-fafafa: darken($bg-fff,2.5);
+
+//--global
+$input-bg: $bg-fff;
+$input-color: $color-default;
+$input-border: lighten($input-bg, 3);
+
+//-- buttons
+
+$btn-def-bg: #505050;
+$btn-def-color: #e8e8e8;
+
+$btn-resolu-bg: #206220;
+$btn-red-bg: #7d1a1a;
+
+//--separators
+$sep-default: lighten( $main-container-bg, 4 );
+$sep-lighter: lighten($sep-default,10);
+
+//--Links
+$link: #8bacc3;
+$link-hover: $color-default;
+
+//--shadow
+$shadow: 0 0 5px 0px rgba(0, 0, 0, 0.33);
+
+//--bloc message
+$msg-bg: lighten( $main-container-bg, 5 );
+$msg-border: transparent;
+
+$spoil-bg: lighten( saturate( $brand-color, 48 ), 42 );
+$spoil-border: lighten( adjust-hue( $spoil-bg, -12deg ), 2 );
+
+//--panels
+$panel-header: lighten($msg-bg,7);
+$panel-body: $msg-bg;
+
+//--topic creation
+$topic-create-bg: $input-bg; //topic creation
+$topic-create-color: $input-color;
+$topic-create-border: $input-border;
+
+$editor-bg: #2f2f2f; //text editor
+$editor-btn-bg: $input-border;
+$editor-btn-border: lighten($editor-btn-bg, 2.94%);
+
+//--striped table
+$odd: #3b3b3b;
+$even: #343434;

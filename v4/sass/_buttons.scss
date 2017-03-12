@@ -1,0 +1,44 @@
+@import "_variables.scss";
+/******* buttons ******* */
+.btn,.button {
+  border-color: transparent;
+  color: $btn-def-color;
+
+  &:hover {
+  border-color: transparent;
+  color: #fff;
+}
+&:focus {
+  outline-color: transparent;
+  border: 1px solid #ccc!important;
+  color: $btn-def-color;
+}
+}
+
+.btn-actu-new-list-forum,.button {
+  background: $btn-def-bg;
+  &:hover {
+    background: lighten($btn-def-bg,11)
+  }
+}
+
+.btn-repondre-msg,.btn-poster-msg,.button-primary {
+  background: $brand-bg;
+  &:hover {
+    background: lighten($brand-bg,11);
+  }
+}
+
+.btn-topic-resolu {
+    background: $btn-resolu-bg;
+    &:hover {
+      background: lighten($btn-resolu-bg,11);
+    }
+}
+
+.btn-forum-modo, .btn-select-msg-modo {
+    background: $btn-red-bg;
+    &:hover {
+      background: lighten($btn-red-bg,11);
+    }
+}

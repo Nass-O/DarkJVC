@@ -1,0 +1,16 @@
+@import "_variables";
+/******* pagination ******* */
+
+//active
+.bloc-liste-num-page .page-active {
+  background: $brand-bg;
+}
+
+//buttons -navig-
+.bloc-pagi-default .pagi-debut-actif, .bloc-pagi-default .pagi-precedent-actif, .bloc-pagi-default .pagi-suivant-actif, .bloc-pagi-default .pagi-fin-actif {
+  background: $btn-def-bg;
+  color: $color-default;
+  &:hover {
+    background: lighten($btn-def-bg,11);
+  }
+}

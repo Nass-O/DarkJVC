@@ -1,0 +1,74 @@
+@import "_variables.scss";
+/******* topic creation *******/
+.form-post-topic .form-control {
+    border-color: $topic-create-border;
+    color: $topic-create-color;
+}
+.form-control {
+    background-color: $topic-create-bg;
+  }
+
+/*text editor*/
+.jv-editor .conteneur-editor, .jv-editor .previsu-editor,.jv-editor-stickers.active, .jv-editor-stickers.label-support.active-mach-version {
+      border-color: $topic-create-border;
+    }
+.jv-editor .conteneur-editor,#f-fstk.f-jvc-thm .f-tabs-w .f-tabs .f-tab.f-h:hover:not(.f-active),#f-fstk.f-jvc-thm .f-top-w .f-top,.jv-editor .conteneur-editor,#f-fstk.f-jvc-thm .f-tabs-w, #f-fstk.f-jvc-thm .f-tabs-w .f-tabs-r,#f-fstk.f-jvc-thm .f-tabs-w .f-tabs .f-tab.f-active {
+    background: $editor-bg;
+}
+.jv-editor .label-previsu {
+  color: $color-default;
+}
+.jv-editor .text-editor {
+    background: #232323;
+    border-top-color: $topic-create-border;
+}
+.jv-editor .btn-group {
+    background: $editor-btn-bg;
+    border-color: $editor-btn-border;
+}
+.jv-editor .btn-jv-editor-toolbar:hover {
+    color: $color-default;
+}
+.jv-editor .btn-jv-editor-toolbar:active, .jv-editor .btn-jv-editor-toolbar:focus,.f-mid-w {
+  background-color: darken($editor-btn-bg,2)!important;
+  border: none!important;
+}
+#f-fstk.f-jvc-thm .f-tabs-w .f-tabs .f-tab.f-active,#f-fstk.f-jvc-thm .f-tabs-w .f-tabs .f-tab.f-h:hover:not(.f-active) {
+    color: #eee;
+}
+#f-fstk.f-jvc-thm .f-mid-w .f-mid {
+    border-color: $topic-create-border;
+    border-top-color: $topic-create-border;
+    background: darken($main-container-bg,2);
+}
+#f-fstk.f-jvc-thm .f-top-w .f-top .f-tabs-w .f-tabs .f-tabs-r .f-tab-search-field {
+  background: $editor-bg;
+}
+#f-fstk .f-stkrs-w .f-stkr-w {
+    opacity: .6;
+}
+#f-fstk .f-stkrs-w .f-stkr-w:hover {
+    background-color: darken($main-container-bg,5);
+    opacity: 1;
+}
+/*stickers search*/
+.f-search-field {
+    background: transparent!important;
+}
+#f-fstk.f-jvc-thm .f-top-w .f-top .f-tabs-w .f-tabs .f-tabs-r .f-tab.f-tab-search.f-active {
+    border: 1px solid $editor-btn-border!important;
+    border-left: 0!important;
+  }
+#f-fstk.f-jvc-thm .f-top-w .f-top .f-tabs-w .f-tabs .f-tabs-r .f-tab-search-field {
+      border: 1px solid $editor-btn-border!important;
+      border-right: 0!important;
+  }
+#f-fstk .f-tabs-w .f-tabs .f-tab.f-tab-search-field input.f-search-field {
+    color: $color-default;
+  }
+  #f-fstk.f-jvc-thm .f-top-w .f-top .f-tabs-w .f-tabs .f-tabs-r .f-tab.f-tab-search.f-active {
+      color: #7c7c7c;
+}
+#f-fstk.f-jvc-thm .f-top-w .f-top .f-tabs-w .f-tabs .f-tabs-r .f-tab.f-tab-store {
+  border: 1px solid $editor-btn-border!important;
+}

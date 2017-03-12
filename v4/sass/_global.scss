@@ -1,0 +1,28 @@
+@import "_variables.scss";
+/******* Global ******* */
+
+input,select {
+    background: $input-bg;
+    border-color: $input-border!important;
+    color: $input-color !important;
+    &:focus {
+      outline-color: transparent;
+      border-color: #ccc!important;
+    }
+}
+textarea {
+  background: #232323;
+  box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.29);
+}
+body {
+  color: $c-000;
+}
+.actif {
+  color: $brand-color!important;
+  &:before {
+    background-color: $brand-color!important;
+  }
+}
+.header {
+  background: $panel-header!important;
+}

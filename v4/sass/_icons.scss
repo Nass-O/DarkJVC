@@ -1,0 +1,45 @@
+@import "_variables.scss";
+/******* Icons *******/
+.nav-lvl2-item>.nav-lv2-link-repeat>i,.nav-link-account, .nav-link-search {
+  color: $c-000;
+}
+img.thumb[src="/img/various/no-img/no-img-v.png"], img[src="/img/various/no-img/no-img-v.png"], img[src="/img/various/no-img/no-img-h.png"] {
+    -webkit-filter: invert(1)contrast(0.9)grayscale(1)!important;
+    -moz-filter: invert(1)contrast(0.9)grayscale(1)!important;
+    filter: invert(1)contrast(0.9)grayscale(1)!important;
+}
+.wait,#wait,.item-boutique .commande-produit a,.bloc-prix-caddie,.valider-modif-profil,.bloc-sondage .tab-choix .reponse a,.ajout-gestion-profil,.up-and-down.collapsed span,.up-and-down span,.picto-favoris-full, .picto-abonnement-full{
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.picto-contact-gplus,.picto-contact-twitter,a.xXx.picto-contact-mp,.picto-crayon, .picto-alerte-page, .picto-to-small-player, .picto-to-big-player,span.picto-favoris,.bloc-fil-ariane-crumb-forum .options-crumb>a,.picto-reglage, .picto-favoris, .picto-abonnement, .picto-rss, .picto-twitter, .picto-facebook, .picto-googleplus, .picto-crayon, .picto-alerte-page, .picto-to-small-player, .picto-to-big-player {
+    -webkit-filter: invert(1)!important;
+    -moz-filter: invert(1)!important;
+    filter: invert(1)!important;
+}
+input[type="radio"], input[type="checkbox"] {
+    -webkit-filter: invert(0.85)!important;
+    -moz-filter: invert(0.85)!important;
+    filter: invert(0.85)!important;
+}
+div#ui-datepicker-div,.fs-body h3:first-child,.avis-tri li.tri-desc .lien-jv span,.avis-tri li.tri-asc .lien-jv span {
+    -webkit-filter: invert(0.9)!important;
+    -moz-filter: invert(0.9)!important;
+    filter: invert(0.9)!important;
+}
+.fs-body a:hover, .fs-body a:focus {
+    -webkit-filter: invert(0)!important;
+    -moz-filter: invert(0)!important;
+    filter: invert(0)!important;
+}
+.webtv-header {
+    -webkit-filter: grayscale(0.3);
+    -moz-filter: grayscale(0.3);
+    filter: grayscale(0.3);
+    opacity: .8;
+}
+.topic-subject [src="/img/forums/topic-lock.png"] {
+    -webkit-filter: brightness(2.3);
+    filter: brightness(2.3);
+}

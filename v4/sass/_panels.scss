@@ -1,0 +1,25 @@
+@import "_variables.scss";
+/******* panels ******* */
+
+//heading
+.panel-jv-forum>.panel-heading {
+    background-color: $panel-header;
+    color: $c-fff;
+//    border-bottom: 1px solid #2b2b2b;
+}
+
+//body
+.panel-jv-forum {
+    background: $panel-body;
+    color: $c-fff;
+    box-shadow: $shadow;
+}
+
+//subtitle
+.panel-jv-forum .titre-info-fofo {
+    color: #949494;
+    border-bottom: 1px solid #5e5e5e;
+  }
+.titre-info-fofo-link.icon-config {
+  color: $c-000;
+}

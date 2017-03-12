@@ -1,0 +1,44 @@
+@import "_variables.scss";
+/******* scripts ******* */
+
+/* Spawnkill */
+.modal-box {
+    border-bottom: none!important;
+    background-color: #242424!important;
+}
+.modal-box.top hr, .modal-box.notification hr {
+    border-bottom: solid 1px #3B3B3B!important;
+}
+#modal-background {
+    background-color: #0C0C0C!important;
+}
+.main-setting,.setting .option {
+    color: #c5c5c5!important;
+}
+#setting-modal.scroll h3 {
+    border-bottom: 1px solid #444!important;
+}
+.setting .options {
+    background-color: #1b1b1b!important;
+}
+.setting .option {
+    border-bottom: solid 1px #2E2E2E!important;
+}
+.modal-box h3,
+.modal-box h4,
+.settings-spawnkill-version,
+.modal-box .sk-button,
+.slide-toggle-style {
+    opacity: 0.8;
+}
+.modal-box h4 {
+    color: #888 !important;
+}
+.modal-box .sk-button:hover,
+.slide-toggle-style:hover {
+    opacity: 1;
+}
+.notification-holder {
+    pointer-events: none;
+    z-index: 0;
+}
