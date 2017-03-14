@@ -6,11 +6,18 @@
 @import "_footer";
 @import "_useless";
 @import "_icons";
-@import "_forum";
 @import "_buttons";
 @import "_panels";
 @import "_pagination";
-@import "_messages";
 @import "_scripts";
 @import "_createTopic";
 @import "_profil";
+@import "_labels";
+
+@import "article/_article";
+
+@import "jeu/_jeu";
+
+@import "forum/_forum";
+@import "forum/_messages";
+@import "forum/_bandeaujeu";

@@ -4,14 +4,15 @@ $version: "DarkJVC v4.0.0 - ";
 //--colors
 $color-default: #ccc;
 $color-dark1: #8f8f8f;
+$color-dark2: #7e7e7e;
 $c-000: #ccc;
 $c-fff: #d0d0d0;
 $c-333: #a6a6a6;
-
+$c-777: #a2a2a2;
 
 
 //brand color
-$brand-color: #1f75bc; //orange: #bc3f1f //blue: #1f75bc
+$brand-color: #bc5f1f; //orange: #bc5f1f //blue: #1f75bc
 $brand-bg: darken( desaturate( $brand-color, 11 ), 10 );
 
 //-- navbar
@@ -77,3 +78,7 @@ $editor-btn-border: lighten($editor-btn-bg, 2.94%);
 //--striped table
 $odd: #3b3b3b;
 $even: #343434;
+
+//--article
+$article-type: $color-dark2;
+$article-title: $c-000;

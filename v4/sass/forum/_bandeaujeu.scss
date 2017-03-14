@@ -1,0 +1,32 @@
+@import "../_variables.scss";
+/******* bandeau jeu******* */
+
+.game-top {
+  background: $nav-top-bg!important;
+}
+.navbar-game {
+  background: lighten($nav-top-bg,10);
+  color: $c-fff;
+}
+.game-top-title a, .game-top-title span,.navbar-game .navbar-brand, .navbar-game .nav-link {
+  color: $c-fff;
+}
+
+.game-top-bar-support {
+  background: lighten($nav-top-bg,20);
+}
+
+.game-top-version-dispo,.navbar-game .nav-link small {
+  color: $color-dark1;
+}
+
+.nav>li>a:hover, .nav>li>a:focus,.navbar-game .nav-item:hover, .navbar-game .nav-item.active, .navbar-game .nav-item.label-support.active-mach-version {
+    background-color: lighten($nav-top-bg,25);
+}
+.navbar-game .nav-item:hover .nav-link, .navbar-game .nav-item .nav-link:focus {
+  color: #fff;
+}
+.navbar-game .nav-item.active .nav-link>span, .navbar-game .nav-item.label-support.active-mach-version .nav-link>span {
+  border-bottom-color: #fff;
+  color: #fff;
+}

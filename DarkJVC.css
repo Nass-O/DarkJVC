@@ -41,12 +41,6 @@ background: #1c1c1c ! important;
 /*[[couleur]]*/
 /*[[urlcolor]]*/
 
-/* URLS */
-.txt-msg a,
-.text-enrichi-default a {
-    color: #879DAA;
-}
-
 /* Placeholder */
 ::-webkit-input-placeholder {
     color: #a3a3a3!important;

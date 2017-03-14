@@ -26,3 +26,15 @@ body {
 .header {
   background: $panel-header!important;
 }
+
+.type,.date-li {
+  color: $article-type!important;
+}
+.titre-item, .titre-item a {
+  color: $article-title!important;
+}
+
+//--separators
+.pres-item-jaq {
+  border-color: $sep-default;
+}

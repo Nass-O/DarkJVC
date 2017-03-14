@@ -1,0 +1,27 @@
+@import "../_variables.scss";
+/******* jeu******* */
+
+.bloc-fichetop-crumb {
+  //fiche top container
+  background: $main-container-bg;
+}
+
+//infos sur le jeu
+.bloc-presentation-affi {
+  border: 1px solid lighten( $main-container-bg, 5 );
+  background: lighten( $main-container-bg, 2 );
+}
+.resume-tech-list li {
+    border-bottom: 1px dotted $sep-lighter;
+}
+
+//notes (global,redac,lecteurs)
+.head-cell-hit {
+  background: #666;
+}
+.corps-cell-hit {
+  border: 1px solid #666;
+  background: #1e1e1e;
+}
+
+//jaquette
